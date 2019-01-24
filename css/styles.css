@@ -1,3 +1,7 @@
 .outputSentence {
   display: none;
 }
+
+#refresh {
+  display: none;
+}

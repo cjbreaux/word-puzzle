@@ -18,6 +18,11 @@ $(document).ready(function(){
 
     $("button#answerBtn").click(function(){
       $("#answer").text(outputText);
+      $("#refresh").show();
+    })
+
+    $("button#refresh").click(function(){
+      location.reload();
     })
 
   })
